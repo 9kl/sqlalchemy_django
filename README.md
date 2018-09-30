@@ -9,15 +9,8 @@
 
     # 在MIDDLEWARE_CLASSES中添加'sqlalchemy_django.middleware.SqlAlchemyMiddleware'
     MIDDLEWARE_CLASSES = (
-        'django.contrib.sessions.middleware.SessionMiddleware',
-        'django.middleware.common.CommonMiddleware',
-        'django.middleware.locale.LocaleMiddleware',
-        'django.middleware.csrf.CsrfViewMiddleware',
-        'django.contrib.auth.middleware.AuthenticationMiddleware',
-        'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
-        'django.contrib.messages.middleware.MessageMiddleware',
-        'django.middleware.clickjacking.XFrameOptionsMiddleware',
-        *'sqlalchemy_django.middleware.SqlAlchemyMiddleware',*  # 添加此项
+        ... ...
+        'sqlalchemy_django.middleware.SqlAlchemyMiddleware',  # 添加此项
     )
     
     # SQLALCHEMY数据访问配置
