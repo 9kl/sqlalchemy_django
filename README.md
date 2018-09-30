@@ -52,7 +52,7 @@
         lttd = Column(Numeric(10, 6), nullable=False)
         ... ...
     
- ### 数据操作
+ ### 数据操作 （增、删、改、查、事务）
     # -*- coding: utf-8 -*-
 
     import sqlalchemy as sa
