@@ -5,7 +5,7 @@ setup(
     version='0.0.4',
     author='bigtiger',
     author_email='chinafengheping@gmail.com',
-    url='http://www.hshl.ltd',
+    url='https://github.com/9kl/sqlalchemy_django',
     description=u'similar flask sqlalchemy',
     packages=['sqlalchemy_django'],
     install_requires=[
